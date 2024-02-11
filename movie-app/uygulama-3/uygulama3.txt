@@ -1,0 +1,5 @@
+Uygulama 3:
+mmovie-app/uygulama-2 klasörünü "uygulama-3" ismiyle kopyala
+Film başlıklarını linke çevir
+Detay sayfalarında film için başlık ,açıklama ve resim ekleyiniz
+Detay sayfalarına anasayfa linki ekleyiniz

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- bu dosyadaki kod bilgilerini back-end tarafında göreceğiz.Bizim amacımız bir form oluşturup belli form elemanları aracılığıyla kullanıcılardan bilgileri toplamak bu topladığımız bilgileri server'a göndereceğiz.Bu server tarafında yazmış olduğumuz kodda bilgileri alıp bir yerlerde kullanacak.Örneğin bir kullanıcı kayıt formunda gelen bilgileri alıcak ve kullanıcı bilgisini bir veritabanında yani kalıcı bir dosya içinde oluşturacak-->
+    <!-- Ama biz bu aşamada sadece verileri taşıyacak olan formların tasarımdan sorumluyuz.Çalışmasından ve bir kullanıcı oluşturmasından burada sorumlu değiliz  -->
+    <form action="register.php">
+        <!-- Adınız:<input type=text>Kaydet> -->
+        <div>
+            <label for="name">Adınız:</label>
+            <input type="text" id="name">
+        </div>
+        <div>
+            <label for="surname">Soyadınız:</label>
+            <input type="text" id="surname">
+        </div>
+        <div>
+            <label for="parola">Parola</label>
+            <input type="password" id="parola">
+        </div>
+        <div>
+            <label for="intro">Kendini Anlatır Mısın?</label>
+            <textarea id="intro"></textarea>
+
+        </div>
+        <div>
+            <p>En Sevdiğin Programlama Dilini Seçer Misin?</p>
+            <input type="radio" id="html" name="Programlama">
+            <label for="html">HTML</label>
+            <input type="radio" id="css" name="Programlama">
+            <label for="css">CSS</label>
+            <input type="radio" id="JavaScript" name="Programlama">
+            <label for="JavaScript">JavaScript</label>
+        </div>
+        <div>
+            <p>En Sevmediğin Programlama Dilini Seçer Misin?</p>
+            <input type="checkbox" id="C">
+            <label for="C">C Dili</label>
+            <input type="checkbox" id="C#">
+            <label for="C#">C# Dili</label>
+            <input type="checkbox" id="JAVA">
+            <label for="JAVA">JAVA Dili</label>
+        </div>
+        <div>
+            <label for="cities">Şehir</label>
+            <select id="cities">
+                <option value="41">Kocaeli</option>
+                <option value="34">İstanbul</option>
+                <option value="06">Ankara</option>
+                <option value="32">Isparta</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="eposta">E-mail</label>
+            <input type="email" id="eposta">
+        </div>
+        <div>
+            <label for="birthday">Doğum Tarihiniz:</label>
+            <input type="date"  id="birthday">
+        </div>
+        <div>
+            <label for="datemax">Enter a date before 1980-01-01:</label>
+            <input type="date" id="datemax" name="datemax" max="1979-12-31"><br><br>
+            <label for="datemin">Enter a date after 2000-01-01:</label>
+            <input type="date" id="datemin" name="datemin" min="2000-01-02">
+        </div>
+        <div>
+            <label for="myfile">Select a file:</label>
+            <input type="file" id="myfile" name="myfile">
+        </div>
+            <button type="submit">Kaydet</button>
+            <button type="reset">Temizle</button>
+    
+    </form>
+</body>
+</html>

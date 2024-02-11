@@ -1,0 +1,14 @@
+Uygulama 4:
+mmovie-app/uygulama-3 klasörünü "uygulama-4" ismiyle kopyala
+en-iyi-filmler.html sayfasına aşağıdaki semantic etiketlerle düzenleyin
+    -header
+    -nav
+    -section
+    -main
+    -aside
+    -article
+en iyi-filmler.html sayfasının header kısmına yan yana linkler ekleyiniz.
+    -en iyi filmler,en son çıkan filmler,en fazla oy alan filmler
+en-iyi-filmler.html sayfasına kategori linkini liste olarak ekleyiniz.
+    -Tüm kategoriler,Macera,Dram,Komedi
+liste işaretini siliniz
